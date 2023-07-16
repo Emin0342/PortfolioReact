@@ -17,13 +17,13 @@ const NavLinks = () => {
       </button>
       <nav className={`links ${isMenuOpen ? "open" : "closed"}`}>
         <NavLink to="/" onClick={() => setIsMenuOpen(false)}>
-          Home
+          Accueil
         </NavLink>
-        <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>
-          About
+        <NavLink to="/about" onClick={() => setIsMenuOpen(false)} style={{ whiteSpace: 'nowrap' }}>
+          À propos de moi
         </NavLink>
         <NavLink to="/portfolio" onClick={() => setIsMenuOpen(false)}>
-          Portfolio
+          Projets
         </NavLink>
         <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
           Contact

@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import landingImage from "../../images/me.svg";
-import Draw from "../../components/Draw";
+import landingImage from "../../images/me.png";
 import SocialIcons from "../../components/SocialIcons";
 
 const Landing = ({ name }) => {
@@ -41,26 +40,23 @@ const Landing = ({ name }) => {
 
   return (
     <section className="landing" style={styles.landing}>
-      <Draw />
       <div className="textContainer" style={styles.textContainer}>
         <h1 className="name" style={styles.name}>
           {name}
         </h1>
         <div className="description">
           <Typewriter
+          options={{
+            autoStart: true,
+            loop: true,
+          }}
             className="description"
             onInit={(typewriter) => {
               typewriter
                 .changeDelay(80)
-                .typeString("I'm a Software Engineer")
+                .typeString("Actuellement a la recherche d'une alternance")
                 .pauseFor(1500)
                 .deleteAll()
-                .typeString("Code. ")
-                .pauseFor(500)
-                .typeString("Create. ")
-                .pauseFor(500)
-                .typeString("Innovate.")
-
                 .start();
             }}
           />
@@ -74,7 +70,7 @@ const Landing = ({ name }) => {
           transition={{ duration: 1, ease: "easeInOut" }}
           style={styles.landingImage}
           src={landingImage}
-          alt="Michael Yeates"
+          alt="Corumlu Emin"
         />
       </div>
       <SocialIcons />
