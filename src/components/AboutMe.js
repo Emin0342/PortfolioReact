@@ -80,7 +80,7 @@ const handleDownload = () => {
                </div>
              </div>
              <div className="buttonContainer">
-               <button className="btn downloadCV" /*onClick={handleDownload}*/ disabled={downloading}>
+               <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
                  {downloading ? "Downloading..." : "Download Resume"}
                </button>{" "}
                <SocialIcons />
