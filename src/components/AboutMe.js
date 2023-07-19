@@ -50,8 +50,7 @@ const handleDownload = () => {
            transition={{ duration: 0.4, ease: "easeInOut" }}
          >
            <div className="contentContainer">
-             <h4>Nice to meet you</h4>
-             <h5>I'm a Software Engineer who crafts amazing digital experiences!</h5>
+             <h5>Jeune développeur </h5>
              <div className="contentDescription">
                <p>{brand}</p>
              </div>
@@ -74,14 +73,14 @@ const handleDownload = () => {
                    <p>{location}</p>
                  </div>
                  <div className="col-12 col-md-6 info">
-                   <span>Availability:</span>
+                   <span>Disponibilité:</span>
                    <p>{availability}</p>
                  </div>
                </div>
              </div>
              <div className="buttonContainer">
                <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
-                 {downloading ? "Downloading..." : "Download Resume"}
+                 {downloading ? "Telechargement..." : "Télécharger mon CV"}
                </button>{" "}
                <SocialIcons />
              </div>

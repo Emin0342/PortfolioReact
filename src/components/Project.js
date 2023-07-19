@@ -4,7 +4,7 @@ import Modal from "react-modal";
 import { useState } from "react";
 import closeModal from "../images/close.svg";
 
-const Project = ({ technologies, title, image, color, id, github, deployed, description }) => {
+const Project = ({ technologies, dispo, title, image, color, id, github, deployed, description,  }) => {
   const [ref, inView] = useInView({
     threshold: 0.5,
     triggerOnce: true,
@@ -41,6 +41,9 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
           </p>
           <h3 className="projectTitle">{title}</h3>
           <span className="viewWork">View Work &#8594;</span>
+          <span className={dispo === "En ligne" ? "dispoTrue" : dispo === "Hors ligne" ? "dispoFalse" : ""}>&#x2B24; {dispo}</span>
+          
+
         </div>
         <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
           <img src={image} alt="Laptop displaying the application" />

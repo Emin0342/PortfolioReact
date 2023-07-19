@@ -50,6 +50,13 @@
   font-size: 14px;
 }
 
+.dispoTrue {
+  color: rgb(0, 255, 21);
+}
+.dispoFalse {
+  color: rgb(255, 0, 0);
+}
+
 .projectTitle {
   font-size: 24px;
   padding: 10px 0;
@@ -89,6 +96,7 @@
 
 .projectDescription {
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 /* --- MEDIA QUEIRES --- */

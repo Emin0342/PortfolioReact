@@ -62,17 +62,7 @@ const Landing = ({ name }) => {
           />
         </div>
       </div>
-      <div className="image-container">
-        <motion.img
-          className="landingImage"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 0.4 }}
-          transition={{ duration: 1, ease: "easeInOut" }}
-          style={styles.landingImage}
-          src={landingImage}
-          alt="Corumlu Emin"
-        />
-      </div>
+     
       <SocialIcons />
     </section>
   );
