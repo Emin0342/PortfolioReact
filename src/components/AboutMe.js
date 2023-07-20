@@ -50,7 +50,7 @@ const handleDownload = () => {
            transition={{ duration: 0.4, ease: "easeInOut" }}
          >
            <div className="contentContainer">
-             <h5>Jeune développeur </h5>
+             <h5>Je serais heureux de collaborer avec vous !</h5>
              <div className="contentDescription">
                <p>{brand}</p>
              </div>
