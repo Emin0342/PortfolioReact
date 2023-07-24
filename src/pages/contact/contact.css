@@ -61,7 +61,12 @@ ul {
   border-bottom: 1px solid var(--grey);
   border-radius: 1px;
   outline: transparent;
-  color: var(--grey);
+  color: #ffffff;
+  
+}
+
+.formControl::placeholder {
+  color: #f3f3f3; /* Remplacez cette valeur par la couleur de votre choix */
 }
 
 .formControl:focus {

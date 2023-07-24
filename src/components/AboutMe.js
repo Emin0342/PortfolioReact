@@ -57,7 +57,7 @@ const handleDownload = () => {
              <div className="infoContainer">
                <div className="row">
                  <div className="col-12 col-md-6 info">
-                   <span>Name:</span>
+                   <span>Nom/Prénom:</span>
                    <p>{name}</p>
                  </div>
                  <div className="col-12 col-md-6 info">

@@ -40,7 +40,6 @@ const Project = ({ technologies, dispo, title, image, color, id, github, deploye
             <em>{technologies}</em>
           </p>
           <h3 className="projectTitle">{title}</h3>
-          <span className="viewWork">View Work &#8594;</span>
           <span className={dispo === "En ligne" ? "dispoTrue" : dispo === "Hors ligne" ? "dispoFalse" : ""}>&#x2B24; {dispo}</span>
           
 
@@ -74,10 +73,10 @@ const Project = ({ technologies, dispo, title, image, color, id, github, deploye
         <h3 className="modalTitle">{title}</h3>
         <p className="projectDescription">{description}</p>
         <button className="btn" onClick={() => (window.location.href = github)}>
-          GitHub Repo
+          GitHub
         </button>
         <button className="btn" onClick={() => (window.location.href = deployed)}>
-          Live Link
+          Lien du site
         </button>
       </Modal>
     </motion.div>

@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import AnimatedRoutes from "./components/AnimatedRoutes";
+import Particles from "./components/Particles";
 
 function App() {
   const personalDetails = {
@@ -12,7 +13,8 @@ function App() {
   };
 
   return (
-    <>
+    <>  
+       <Particles />
       <Header />
       <AnimatedRoutes personalDetails={personalDetails} />
     </>
