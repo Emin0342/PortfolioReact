@@ -6,7 +6,7 @@
     "technologies": "PHP | SYMFONY",
     "dispo": "Hors ligne",
     "github": "https://github.com/Emin0342/SymfonyEcommece",
-    "deployed": "https://norrinradd8.github.io/bike_buddy/",
+    "deployed": "",
     "bgcolor": "#f37737",
     "id": "1"
   },
@@ -15,8 +15,8 @@
     "image": "./projectImages/weather.png",
     "technologies": "PHP | HTML | CSS",
     "dispo" : "En ligne",
-    "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name, date, weather icon, temperature, humidity, and wind speed. The dashboard has a 5-day forecast feature and a search history feature that saves past searches for easy access. It also has a dark/light theme that changes the look of the page based on day or night in the searched location and uses the geolocation API to automatically determine the user's current location and display the weather.",
-    "github": "https://github.com/mdyeates/weather-app",
+    "description": " Du développement jusqu'au déploiment du site, j'ai réaliser ce site vitrine lors de mon stage de seconde année de BTS. Elegance cuisine est le premier vrai site internet que je réalise en totale autonomie, ",
+    "github": "",
     "deployed": "https://elegance-cuisine.com/",
     "bgcolor": "#29cbe0",
     "id": "2"
@@ -37,9 +37,9 @@
     "image": "./projectImages/quiz.png",
     "technologies": "PHP | FPDF | JS | HTML | CSS",
     "dispo" : "Hors ligne",
-    "description": "A quiz app on the fundamentals of JavaScript. There are 5 randomly selected multiple-choice questions and the user will have a time limit of 50 seconds. The remaining time will determine their score at the end. The user will be penalised by 10 seconds for every incorrect answer.",
-    "github": "https://github.com/mdyeates/coding-quiz",
-    "deployed": "https://mdyeates.github.io/coding-quiz/",
+    "description": "J'ai réalisé cette application de gestion/générations de factures pour le père d'un ami à moi. Cette application utilise la librairie FPDF pour la génération de la facture en PDF selon le formulaire rempli au préalable qui exige des informations tel que : nom du client, adresse, quantité, prix unitaire, unité de mesure (m² ou m³)...",
+    "github": "https://github.com/Emin0342/CobanFacture",
+    "deployed": "",
     "bgcolor": "#f85781",
     "id": "4"
   }
