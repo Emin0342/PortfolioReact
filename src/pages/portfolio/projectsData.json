@@ -26,7 +26,7 @@
     "image": "./projectImages/team.png",
     "technologies": "REACT JS",
     "dispo" : "En ligne",
-    "description": "Ce projet est le portfolio que vous consulter en ce moment même ! J'ai conçu ce portfolio afin d'apprendre les bases de la librairie React.js et d'améliorer mes notions en Javascript. Comme pour mon projet e-commerce, j'ai utiliser un template afin de le modifier a mes besoins et de comprendre l'utilité, le fonctionnement des différents dossier / fichiers.",
+    "description": "Ce projet est le portfolio que vous consultez en ce moment même ! J'ai conçu ce portfolio afin d'apprendre les bases de la librairie React.js et d'améliorer mes notions en Javascript. Comme pour mon projet e-commerce, j'ai utilisé un template afin de le modifier à mes besoins et de comprendre l'utilité, le fonctionnement des différents dossiers / fichiers.",
     "github": "https://github.com/Emin0342/PortfolioReact",
     "deployed": "https://emincor.netlify.app/",
     "bgcolor": "#6c4bf4",

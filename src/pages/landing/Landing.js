@@ -53,8 +53,19 @@ const Landing = ({ name }) => {
               typewriter
                 .changeDelay(80)
                 .typeString("Actuellement a la recherche d'une alternance")
-                .pauseFor(1500)
+                .pauseFor(1000)
                 .deleteAll()
+                .typeString("Je suis motivé.")
+                .pauseFor(1000)
+                .deleteChars(8)
+                .typeString(" assidu.")
+                .pauseFor(1000)
+                .deleteChars(8)
+                .typeString(" respectueux.")
+                .pauseFor(1000)
+                .deleteChars(13)
+                .typeString(" autonome.")
+                .pauseFor(1000)
                 .start();
             }}
           />

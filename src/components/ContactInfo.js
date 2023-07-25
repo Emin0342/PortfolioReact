@@ -23,7 +23,7 @@ const ContactInfo = ({ name, email, location }) => {
               <i className="icon fa-solid fa-user"></i>{" "}
             </span>
             <div className="mediaWrap">
-              <h6 className="infoType">Nom/Prénom</h6>
+              <h6 className="infoType">Nom / Prénom</h6>
               <span className="infoValue">{name}</span>
             </div>
           </div>

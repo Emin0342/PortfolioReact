@@ -52,6 +52,11 @@ const Project = ({ technologies, dispo, title, image, color, id, github, deploye
         isOpen={showModal}
         onRequestClose={handleCloseModal}
         style={{
+          overlay: {
+            position: "fixed",
+            inset: "0px",
+            backgroundColor: "rgba(40, 40, 40, 0.75)"
+          },
           content: {
             backgroundColor: "#101010",
             color: "#9f9f9f",
@@ -75,9 +80,11 @@ const Project = ({ technologies, dispo, title, image, color, id, github, deploye
         <button className="btn" onClick={() => (window.location.href = github)}>
           GitHub
         </button>
-        <button className="btn" onClick={() => (window.location.href = deployed)}>
-          Lien du site
-        </button>
+        {dispo !== "Hors ligne" && (
+          <button className="btn" onClick={() => (window.location.href = deployed)}>
+            Lien du site
+          </button>
+        )}
       </Modal>
     </motion.div>
   );
